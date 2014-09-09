@@ -2,6 +2,7 @@
 #include "MaxProfit.h"
 #include "MergeLinkedLists.h"
 #include "BuildBSTFromSortedArray.h"
+#include "SingleNumber.h"
 
 void main()
 {
@@ -16,4 +17,7 @@ void main()
 
 	IProblem* buildBSTFromSortedArray = new BuildBSTFromSortedArray();
 	buildBSTFromSortedArray->Execute();
+
+	IProblem* singleNumber = new SingleNumber();
+	singleNumber->Execute();
 }

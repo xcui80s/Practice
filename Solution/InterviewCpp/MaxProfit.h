@@ -2,7 +2,10 @@
 
 #include "IProblem.h"
 #include <vector>
-
+/*
+Best Time to Buy and Sell Stock II
+https://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+*/
 class MaxProfit :
 	public IProblem
 {
